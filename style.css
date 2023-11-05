@@ -1,0 +1,102 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-image: url("img/lighthouse.jpg");
+   background-size: cover;
+}
+@font-face {
+    font-family:"SAIL" ;
+    src: url("FONT/Sail-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+}
+.left{
+    margin-right:300px;
+    margin-top: 80px;
+    opacity: .9;
+}
+.div{
+    border-style:double;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top: 400px;
+    right: 800px;
+    text-align: center;
+    box-shadow: 10PX 10PX 10PX black;
+}
+h1{
+    font-family: "sail";
+    font-size: 90px;
+    color: aquamarine;
+    text-shadow: 10px 10px 10px aqua;
+}
+.boat{
+    margin-top: 20px;
+    border-radius: 100px;
+    box-shadow: 20px 20px 10px aqua;
+}
+input{
+    width: 700px;
+    height: 45px;
+    display: block;
+    outline: none;
+    background: none;
+    border: none;
+    color: aquamarine;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 20px 20px 20px aqua;
+    font-family: "SAIL";
+    font-size: 42px;
+}
+form{
+    padding: 40px;
+    margin-left: 20px;
+    font-family: "sail";
+    color: aquamarine;
+    font-size: 42px;
+}
+.email{
+    margin-top:20px;
+    margin-bottom: 16px;
+    background-image: url("icons/person-bounding-box\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: 650px center;
+}
+.email::placeholder{
+    color: aquamarine;
+}
+.password{
+    margin-top: 20px;
+    margin-bottom: 27px;
+    background-image: url("icons/eye-slash\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: 650px center ;
+}
+.password::placeholder{
+    color: aquamarine;
+}
+button{
+    border-radius: 20px;
+    border: none;
+    background: none;
+    background-image: url("icons/log-in.png");
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 60px;
+    background-size: 40px 40px;
+    background:linear-gradient(to bottom,aquamarine 0%, blue 90% );
+    font-size: 42px;
+    color: lightskyblue ;
+}
+button:hover{
+    box-shadow: 10px 10px 10px aqua;
+    background-image: url("icons/log-in.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: 340px center;
+}
